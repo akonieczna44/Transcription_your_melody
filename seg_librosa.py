@@ -1,6 +1,8 @@
 import librosa.util
 import librosa, librosa.display
 from functions import *
+
+
 # import abjad
 
 
@@ -37,7 +39,6 @@ def seg_librosa():
 
     # sample, but with boundaries
     nutyLib['onset_boundaries'] = np.concatenate([[0], nutyLib['onset_samples'], [len(y)]])
-
     # "clicks"
     nutyLib['onset_times'] = librosa.samples_to_time(nutyLib['onset_boundaries'], sr=sr)
 
@@ -88,7 +89,6 @@ def seg_librosa():
 
     nuty_hz = []
     nutyLib['nameLily'] = estimate_pitch_and_generate_sine(y, nutyLib['onset_boundaries'], sr=sr)
-
 
     # first element
     nutyLib['nameLily'].pop(0)

@@ -135,7 +135,7 @@ def Siatka_rytmiczna(slownik):
     click = slownik['onset_times']
     dlugosci = []
 
-    print('there will be  ', len(click)-2, ' notes')
+    print('There will be  ', len(click)-2, ' notes')
 
     for index in range(len(click) - 1):
         el = click[index + 1] - click[index]

@@ -1,18 +1,12 @@
 from tkinter import *
 from seg_librosa import *
+from seg_manual import *
 import pyaudio
 import wave
 import numpy as np
 import matplotlib.pyplot as plt
 #import abjad
 
-# from matplotlib.widgets import Cursor
-# from matplotlib.figure import Figure
-# from matplotlib.backends.backend_tkagg import (FigureCanvasTkAgg, NavigationToolbar2Tk)
-
-# from seg_manual import *
-
-# import auto_py_to_exe
 
 FORMAT = pyaudio.paInt16
 CHANNELS = 1
