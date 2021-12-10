@@ -19,6 +19,7 @@ Now you can sing short melodies, the notation of which you will receive.
 
 ## What should you do
 (-1. Recording the melody)
+
 (0. Install Lilypond and library abjad if you want to get score and play your result melody)
 
 1. Select the segmentation method (for now, it is automatic in total)
@@ -48,7 +49,6 @@ Now you can sing short melodies, the notation of which you will receive.
 ## TO DO
 In current programme:
 ```
-*
 ```
 Maybe in the future, its optional inspiration:
 ```
