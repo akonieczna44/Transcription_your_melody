@@ -29,9 +29,9 @@ Now you can sing short melodies, the notation of which you will receive.
 
 #### Here, a few tips for you about recording:
 ```
-* Make sure that only your voice is on the recording,
-* Accent the beginning of the notes clearly, 
-* Sing precisely,
+* Make sure that only your voice is on the recording
+* Accent the beginning of the notes clearly
+* Sing precisely
 * and preferably do not use the text - sing on the syllable of your choice.
 ```
 
@@ -49,7 +49,17 @@ Now you can sing short melodies, the notation of which you will receive.
 ## TO DO
 In current programme:
 ```
+* Displaying notes in the graphical interface
+* Completing graphical segmentation
+* Ability to edit notes and re-display
+* Tonality control
 ```
 Maybe in the future, its optional inspiration:
 ```
+* Pause detection
+* Advanced music analysis (e.g. based on Markov Models)
+* Suggesting melody direction
+* Text recognition
+* Transition to object-oriented programming
+* Graphical note processing
 ```
